@@ -3,6 +3,7 @@ This bundle is based on work of  Gregquat from http://obtao.com/blog/2012/11/soc
 Instalation:
 
 Add to project composer.json
+    
         "require": {
             ...
             "stfalcon/tinymce-bundle": "dev-master",
@@ -11,6 +12,7 @@ Add to project composer.json
 
 
 Usage:
+    
     // insert the whole bar with default values
     {{ socialButtons() }}
 
