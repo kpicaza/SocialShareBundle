@@ -10,6 +10,10 @@ Add to project composer.json
             ...
         }
 
+Activate on kernel
+    
+              new SocialShareBundle\SocialShareBundle(),
+
 
 Usage:
     
