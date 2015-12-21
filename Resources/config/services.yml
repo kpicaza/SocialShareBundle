@@ -1,0 +1,13 @@
+# src/Acme/DemoBundle/Resources/config/services.yml
+services:
+    app.socialbar.helper:
+        class : SocialShareBundle\Templating\Helper\SocialBarHelper
+        tags : 
+            - {name : 'templating.helper', alias : 'social-buttons'} 
+        arguments : [ @templating ]
+
+    twig.extension.app_social_bar:
+        class: SocialShareBundle\Twig\Extensions\SocialShareBar
+        tags:
+            - { name: 'twig.extension' }
+        arguments : [ @service_container ]
