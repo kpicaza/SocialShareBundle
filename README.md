@@ -11,8 +11,14 @@ Add to project composer.json
         }
 
 Activate on kernel
-    
+
+        public function registerBundles()
+        {
+            $bundles = array(
+              ...
               new SocialShareBundle\SocialShareBundle(),
+              ...
+        }
 
 
 Usage:
