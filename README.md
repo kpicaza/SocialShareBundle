@@ -4,6 +4,7 @@ Instalation:
 
 Add to project composer.json
     
+    // composer.json
         "require": {
             ...
             "stfalcon/tinymce-bundle": "dev-master",
@@ -12,6 +13,7 @@ Add to project composer.json
 
 Activate on kernel
 
+    // app/AppKernel.php
         public function registerBundles()
         {
             $bundles = array(
